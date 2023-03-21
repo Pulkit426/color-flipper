@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-center>h3{
+    margin: 15px;
+    font-size: 24px;
+    color:blue;
+}
+
+.nav-links{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-links>li{
+    list-style-type: none;
+    margin: 15px;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.nav-links>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links>li>a:hover{
+    color: lightblue;
+}
